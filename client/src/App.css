@@ -1,0 +1,39 @@
+.App .App-header {
+  margin-bottom: 50px;
+  background-color: #0030FF;
+  color: #fff; }
+  .App .App-header h1 {
+    padding: 20px;
+    text-align: center; }
+
+.modal-dialog-centered .modal-content {
+  border-radius: 0px;
+  border: 8px solid #fff; }
+  .modal-dialog-centered .modal-content .modal-header {
+    background-color: #0030FF;
+    border: 0;
+    border-radius: 0; }
+    .modal-dialog-centered .modal-content .modal-header h5 {
+      text-align: center;
+      margin: 0 auto;
+      background-color: white;
+      color: #0030FF;
+      padding: 10px;
+      margin-top: -45px;
+      width: 80%; }
+  .modal-dialog-centered .modal-content .modal-body {
+    background-color: #0030FF;
+    color: #fff;
+    text-align: center; }
+    .modal-dialog-centered .modal-content .modal-body p:before {
+      display: inline-block;
+      vertical-align: top;
+      line-height: 1em;
+      width: 1em;
+      height: 1em;
+      margin-right: 0.3em;
+      text-align: center;
+      color: #fff;
+      content: '\2713'; }
+    .modal-dialog-centered .modal-content .modal-body p.incorrect:before {
+      content: '\2718'; }
